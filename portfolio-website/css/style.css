@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+.mainHeaderParent{
+    background: url('../images/header-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.Maincontainer{
+    width: 90%;
+    margin: 0 auto;
+}
+.NavigationBar{
+    width: 100%;
+    padding: 25px 0;
+    display: flex;
+}
+.logo{
+    width: 25%;
+}
+.logo img{
+    width: 85%;
+}
+.port-menu{
+    width: 30%;
+    margin-right: 150px;
+}
+.mainNavMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainNavMenu ul{
+    display: flex;
+    list-style: none;
+}
+.mainNavMenu ul li{
+    padding: 0px 10px;
+}
+.mainNavMenu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+.social-icons{
+    width: 25%;
+    display: flex;
+    justify-content: end;
+}
+.social-icons li{
+    list-style: none;
+    padding: 0 10px;
+}
+.social-icons li img{
+    cursor: pointer;
+    width: 80%;
+}
+.bannerParent{
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+}
+.leftContentSide{
+    width: 35%;
+    margin-top: 80px;
+}
+.portfirsthead{
+    color: #9A99A7;
+    font-size: 60px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+.portsecondthead{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.leftContentSide hr{
+    border-top: 4px solid #F2B93A;
+    opacity: 100%;
+}
+.leftContentSide p{
+    width: 70%;
+    color:#9A99A7;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.centerImageSide{
+    width: 30%;
+}
+.centerImageSide img{
+    width: 70%;
+    margin: 62px 30px 0px 20px;
+    /* margin-top: 68px; */
+}
+.rightContentSide{
+    width: 35%;
+    margin-top: 80px;
+}
+.rightContentSide li{
+list-style: none;
+}
+.headerlink1{
+    text-decoration: none;
+    color: #9897a5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.rightContentSide p{
+    font-size: 22px;
+    color: #bfbfcd;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    width: 75%;
+    margin-top: 10px;
+}
+.headerlink2{
+    text-decoration: none;
+    color: #F2B93A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.headerlink2 span{
+    margin-left: 10px;
+}
+.bannerSocialIcons{
+    list-style: none;
+    display: flex;
+    margin-top: 20px;
+}
+.bannerSocialIcons li {
+    padding: 0 8px;
+}
+.endd{
+    background-color: #282832;
+    width: 100%;
+    position: relative;
+    height: 860px;
+    /* border: 2px solid black; */
+}
+.meta{
+    color: white;
+    border: 1px solid  #363543;
+    padding: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 80px;
+    background-color: #363543;
+}
+.google{
+    color: white;
+    border: 1px solid  #363543;
+    padding: 40px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    width: 80px;
+    background-color: #363543;
+}
+.linked{
+    color: white;
+    border: 1px solid  #363543;
+    padding: 40px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    width: 80px;
+    background-color: #363543;
+}
+
+.slack{
+    
+        color: white;
+        border: 1px solid  #363543;
+        padding: 40px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+        width: 80px;
+        background-color: #363543;
+
+    }
+
+    .mainDIv{
+        /* border: 2px solid   #363543; */
+        padding: 40px;
+        background-color: #9897a5;
+        width: 1100px;
+        margin-left: 130px;
+    }
+
+    .text{
+        color: white;
+        margin-top: 50px;
+    }
+ .what{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 100px;
+ }
+ .margin{
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-right: 90px;
+ }
+
+ .num{
+    font-size: 60px;
+    margin-left: 90px;
+    color: gold;
+    padding: 40px;
+    font-weight: bold;
+ }
+ .colDiv{
+    margin-top: 80px;
+    
+    
+ }
+
+ .first{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    padding: 80px;
+ }
+ .line{
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 40px;
+ }
+
+ /* .smileface{
+    width: px;
+    height: 10px;
+ } */
+
+ .paraaaa{
+    color: white;
+    font-size: small;
+ }
+ .bold{
+    color: #282832;
+ }
